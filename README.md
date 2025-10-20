@@ -1,3 +1,3 @@
 # Aphaenogaster_GSMNP_Microbiome
 
-NCBI SUB15712255
+NCBI  PRJNA1347072
