@@ -1,0 +1,228 @@
+#NEXUS
+[written Fri Jun 20 13:47:57 EDT 2025 by Mesquite  version 3.81 (build 955) at Sharons-MacBook-Pro.local/127.0.0.1]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=33;
+	TAXLABELS
+		81e7c84a2b9ab8698de9418f4dfdf41d a035ba5b60c48674e539656fb55b565b a5993b81dfe1d1904cdcade915df3116 5d3ad1564918204e8f3f9bc665dab157 93c3f84d119ccfc54768a90983c8053d 2fadcf919ef4bed72036eeb2aa0f7de1 d9eb50c093b8c447e83d13e47d7d5a2c 535ca686719c51c606ff3c11f06f1907 73b413c294026326492469ffdf8f1373 1b04128b9370cee980a8d042b92ecf82 7caa05838ef487fe863573865da93370 e51284a3fc3decbaa115c878011c42a8 ec6b2f4e4571a2d313e6898f0d958cf5 893d026498f3a7243c30197b5fca522a 029520197164dba28c90343049747842 411c3639e768284c33c1654a3ee3a369 7f2e1ea373e1b6e0713b0dda1fafebb1 f6de7f3d24158f8b5589249eaf1be2fc c1a0f0bcaeb6612a48222ac5b8527bad 98d1cacefa3badf123a980436ee9e34b 180e3a939c668ff2d2783a3e6acd6897 1a9e20f6613e401ab77359f2cd9c4bdf 148a77302ad9545b55c49d4890eb12cd b57658d1a894109ce375fd0238a6822d d9c892c462ce8e4cdb37a392c99a0b67 323da122bc9b90475bbd2f50e69b3303 1a08cbc68721ec83a13d38667055cba6 e1b6cab7e9183cc30082e43517a24911 0ae036353f64136df2d8c511397f9d37 db72c0b800c0c11b64ae27ce6501be0d dc56665218984229e5ee5146d6bc1cb6 a937a35a9ed9a74876bdaf8d521b877b a2a943339e43e79ff5ad64f5869ab289 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=235;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	81e7c84a2b9ab8698de9418f4dfdf41d  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	a035ba5b60c48674e539656fb55b565b  attcggaattattgggcgtaaagagcgcgtaggctggttagtaagttaaaagtgaaatcccagagctcaactttggaattgcttttaaaactgctaacctagagattgaaagaggatagaggaattcctagtgtagaggtggaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	a5993b81dfe1d1904cdcade915df3116  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggtgcga---------------------
+	5d3ad1564918204e8f3f9bc665dab157  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaaggggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	93c3f84d119ccfc54768a90983c8053d  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgtttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	2fadcf919ef4bed72036eeb2aa0f7de1  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtggaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	d9eb50c093b8c447e83d13e47d7d5a2c  attcggaattattgggtgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	535ca686719c51c606ff3c11f06f1907  attcggaattattgggcgtaaagggcgcgtgggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	73b413c294026326492469ffdf8f1373  tttcggaattattgggcgtaaagggcgtgtaggcggttaataaagttgaaagtgaaagccccgggcttaacctgggaactgctttcaaaactcattaactagagaacgatagaggatagtagaattcctagtgtagaggtgaaattcttagatattaggaggaataccggtggcgaaggcggctatctgggtcgtttctgacgctgaggcgcga---------------------
+	1b04128b9370cee980a8d042b92ecf82  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaatttgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	7caa05838ef487fe863573865da93370  attcggaattattgggcgtaaagagcgcgtaggctggttagtaagttaaaagtgaaatcccagagctcaactttggaattgcttttaaaactgctaacctagagattgaaagaggatagaggaattcctagtgtagaggcggaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	e51284a3fc3decbaa115c878011c42a8  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgctcttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	ec6b2f4e4571a2d313e6898f0d958cf5  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtatatctggttcaaatctgacgctgaggcgcga---------------------
+	893d026498f3a7243c30197b5fca522a  attcggaattattgggcgtaaagggcgcgtaggcggactagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	029520197164dba28c90343049747842  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggctcaaatctgacgctgaggcgcga---------------------
+	411c3639e768284c33c1654a3ee3a369  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagggattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	7f2e1ea373e1b6e0713b0dda1fafebb1  attcggaattattgggcgtaaagagcgcgtaggctggttagtaagttaaaagtgaaatcccagagctcaactttggaattgcttttaaaactgctaacctagagattgaaagaggatagaggaattcctagtgtagaggtggaattcgtaaatattaggaggaacaccagtggcgaagacgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	f6de7f3d24158f8b5589249eaf1be2fc  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggcgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	c1a0f0bcaeb6612a48222ac5b8527bad  attcggaattattgggcgtaaagggcgcgcaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttataaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	98d1cacefa3badf123a980436ee9e34b  attcggaattattgggcgtaaagggcgcgtaggctggttaataagttaaaagtgaaatcccgaggcttaaccttggaattgcttttaaaactattaacctagagattgaaaggggatagaggaattcctgatgtagaggtaaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctgtctggttcaaatctgacgctgaagcgcga---------------------
+	180e3a939c668ff2d2783a3e6acd6897  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggtgtctacctggttcaaatctgacgctgaggtgcga---------------------
+	1a9e20f6613e401ab77359f2cd9c4bdf  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgagatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaaggggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	148a77302ad9545b55c49d4890eb12cd  attcggaattattgggcgtaaaaggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	b57658d1a894109ce375fd0238a6822d  attcggaattattgggcgtaacgggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	d9c892c462ce8e4cdb37a392c99a0b67  attcggaattattgggcgtaaagcgcgcgtaggctggttagtaagttaaaagtgaaatcccagagctcaactttggaattgcttttaaaactgctaacctagagattgaaagaggatagaggaattcctagtgtagaggtggaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	323da122bc9b90475bbd2f50e69b3303  attcggaattattgggcgtaaagagcgcgtaggctggttagtaagttaaaagtgaaatcccagggctcaactttggaattgcttttaaaactgctaacctagagattgaaagaggatagaggaattcctagtgtagaggtggaattcgtaaatattaggaggaacaccagtagcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	1a08cbc68721ec83a13d38667055cba6  attcggaattattgggcgtaaagggcgtgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattaaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	e1b6cab7e9183cc30082e43517a24911  attcggaattattgggcgtaaagagcgcgtaggctggttagtaagctaaaagtgaaatcccagagctcaactttggaattgcttttaaaactgctaacctagagattgaaagaggatagaggaattcctagtgtagaggtggaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctggcgctgaggcgcga---------------------
+	0ae036353f64136df2d8c511397f9d37  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacacctgtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	db72c0b800c0c11b64ae27ce6501be0d  attcggaattattgggcgtaaagggcgcgtgggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaggaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	dc56665218984229e5ee5146d6bc1cb6  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcgaccttggaattgcttttaaaactgctaatctagagattgaaaggggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	a937a35a9ed9a74876bdaf8d521b877b  attcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttgggattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgagggcgtctatctggttcaaatctgacgctgaggcgcga---------------------
+	a2a943339e43e79ff5ad64f5869ab289  gccgcggtaatacggagagggctagcgttattcggaattattgggcgtaaagggcgcgtaggcggattagtaagttaaaagtgaaatcccaaggctcaaccttggaattgcttttaaaactgctaatctagagattgaaagaggatagaggaattcctagtgtagaggtgaaattcgtaaatattaggaggaacaccagtggcgaaggcgtggggagcaaacaggattagatacc
+
+;
+
+
+
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1- 235;
+
+END;
+
+BEGIN NOTES;
+
+	TAXABITS   NAME = newlyAddedTaxon on =  1 -  33;
+
+END;
+
+BEGIN CODONS;
+	CODESET * UNTITLED   =  universal:  1- 235;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Jukes-Cantor':  1- 235;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1750441677342;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 7955700318716963989;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 2612824440108690971;
+			mqVersion 381;
+			checksumv 0 3 3104285935 null  getNumChars 235 numChars 235 getNumTaxa 33 numTaxa 33   short true   bits 1152921504606846991   states 15   sumSquaresStatesOnly 151524.0 sumSquares -8.771426807048892E21 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1270 464;
+			setLocation 8 38;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #2612824440108690971 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1170 392;
+					setLocation 8 38;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleReduceCellBorders off;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleColorOnlyTaxonNames off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					togglePaleMissing off;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 16 6 1 1;
+					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
+				endTell;
+				getEmployee #mesquite.molec.ColorByAA.ColorByAA;
+				tell It;
+					emphasizeDegeneracy off;
+				endTell;
+				getEmployee #mesquite.chromaseq.ColorQuality.ColorQuality;
+				tell It;
+					toggleAmbiguities on;
+					toggleMarks on;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+				getEmployee #mesquite.chromaseq.SourceFileInfoEditor.SourceFileInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+
